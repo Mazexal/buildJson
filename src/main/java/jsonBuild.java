@@ -47,7 +47,7 @@ public class jsonBuild {
             num=getRandInt(5,20);
             stringBuilder.append(":");
 
-            int choose=getRandInt(4,4);
+            int choose=getRandInt(3,4);
             int tmp = getRandInt(3,4);
             if(depthlevel>5){
                 choose=5;
