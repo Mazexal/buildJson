@@ -60,7 +60,6 @@ public class jsonBuild {
                     depthlevel =depthlevel+1;
                     stringBuilder.append(buildArray(tmp,depthlevel+1));
                     break;
-
                 default:
                     stringBuilder.append("\"");
                     stringBuilder.append(strBuild(num));
