@@ -69,7 +69,6 @@ public class jsonBuild {
             if(i!=length-1){
                 stringBuilder.append(",");
             }
-            
         }
         stringBuilder.append("}");
         return (stringBuilder.toString());
