@@ -63,7 +63,7 @@ public class jsonBuild {
                 default:
                     stringBuilder.append("\"");
                     stringBuilder.append(strBuild(num));
-                    
+
                     stringBuilder.append("\"");
                     break;
             }
@@ -86,6 +86,7 @@ public class jsonBuild {
                 stringBuilder.append(",");
             }
         }
+        
         stringBuilder.append("]");
         // stringBuilder.append(",");
         return stringBuilder.toString();
