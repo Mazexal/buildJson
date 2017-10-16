@@ -88,6 +88,7 @@ public class jsonBuild {
         }
         stringBuilder.append("]");
         // stringBuilder.append(",");
+        
         return stringBuilder.toString();
     }
 
