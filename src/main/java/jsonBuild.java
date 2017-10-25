@@ -76,7 +76,6 @@ public class jsonBuild {
     }
     
 
-
     private static String buildArray( int depth,int depthlevel){
         StringBuilder stringBuilder=new StringBuilder();
         stringBuilder.append("[");
