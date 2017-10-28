@@ -35,7 +35,6 @@ public class jsonBuild {
     }
     
     private static String buildObjectBase(int length,int depthlevel){
-
         StringBuilder stringBuilder=new StringBuilder();
         stringBuilder.append("{");
         for(int i=0;i<length;i++){
