@@ -35,8 +35,7 @@ public class jsonBuild {
         }
         return jsonList;
     }
-
-
+    
     private static String buildObjectBase(int length,int depthlevel){
         StringBuilder stringBuilder=new StringBuilder();
         stringBuilder.append("{");
