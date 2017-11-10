@@ -19,6 +19,7 @@ public class jsonBuild {
         }
         System.out.println(end-begin);
     }
+
     
     public static int getRandInt(int begin,int end){
         int temp=end-begin;
